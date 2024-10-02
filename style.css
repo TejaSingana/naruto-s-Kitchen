@@ -1,0 +1,359 @@
+
+    *{
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    
+    }
+
+        
+   
+   .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+   
+    background-color: rgba(243, 49, 49, 0.978);
+   }
+   .nav .logo img{
+    width: 200px;
+   }
+   .nav .links ul{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    list-style-type: none;
+    width: 600px;
+   
+   }
+   .nav .links ul li a{
+    text-decoration: none;
+    color: black;
+   }
+ .search{
+    width: 20%;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid #0d0c0c;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: white;
+    cursor: pointer;
+  
+ }
+
+ .search input{
+    border: 0.1px solid white;
+    background-color:white;
+    width: 260px;
+ }
+.search input:focus{
+    outline: none;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    padding:10px 20px;
+    margin: 10px;
+    color:rgb(245, 148, 148);   
+    cursor:pointer;
+}
+.buttons button{
+    border-radius: 25px;
+    padding: 10px 10px; 
+
+}
+.marq{
+    margin-top: 100px;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: large;
+    color: rgb(239, 243, 17);
+   
+    
+}
+
+.about{
+    background-color:rgb(245, 148, 148);
+    height: 200vh;
+    width: 100vw;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+.box1{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section1{
+    width: 80%
+
+}
+
+.box2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section2{
+    width: 80%;
+}
+.box3{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section3{
+    width: 80%;
+}
+.hero .images{
+    display: flex;
+    overflow: scroll;
+   } 
+    .hero .images img{
+    width: 154px;}
+    ::-webkit-scrollbar{
+        display: none;
+
+    }
+
+.payment-error {
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 20px 30px;
+    position: absolute;
+    right: 35%;
+    align-items: center;
+    margin-top: 150px;
+    color: rgb(0, 1, 1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    background-color: rgba(243, 39, 16, 0.605)
+
+    
+  }
+  #xmark{
+    margin-left: 325px;
+  }
+  footer{
+    background-color: rgba(198, 25, 25, 0.989);
+    text-align: center;
+    padding: 20px;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+.icons{
+    display: flex;
+    justify-content:space-evenly;
+    position:fixed;
+    bottom: 0%;
+    right: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    
+
+}
+.icons a i{
+    color: black;
+  font-size: larger;
+}
+
+
+.register{
+    background-color:rgb(245, 148, 148);
+
+}
+.Signin{
+    width: 100%;
+ text-align: center;
+ align-items:center ;
+ flex-direction: column;
+    display: flex;
+    justify-content: center;
+    
+}
+.form1{
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 20px 30px;
+    align-items: start;
+    margin-top: 150px;
+    color: rgb(0, 1, 1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    background-color: rgba(243, 125, 16, 0.605);
+       
+}
+.form1 form #email{
+    margin-left: -35px;
+}
+.form1 form #password{
+    margin-left: -10px;
+}
+.form2 form #pass{
+    margin-left: -10px;
+}
+.form2 form #pass1{
+    margin-left: 22px;
+}
+
+
+
+.buttons button a{
+    text-decoration: none;
+}
+.Login {
+    width: 100%;
+ text-align: center;
+ align-items:center ;
+ flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+.form2{
+    width: 400px;
+    border: 2px solid;
+    border-radius: 25px;
+    padding: 20px 30px;
+    align-items: center;
+    margin-top: 150px;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    background-color: rgba(243, 125, 16, 0.605);
+
+    }
+     .Login .form2{
+        transition: transform .18s ease;
+        transform: translateX(0);
+    }
+     
+    .order{
+
+        font-family: Arial, sans-serif;
+        background-color:rgb(245, 148, 148);
+        margin: 0;
+        padding: 0;
+        margin-bottom: 50px;
+    }
+    .menu1{
+        display: flex;
+        justify-content:space-evenly;
+
+    }
+    .menu2{
+        display: flex;
+        justify-content:space-evenly;
+    }
+    .menu3{
+        display: flex;
+        justify-content:space-evenly;
+    }
+    .menu4{
+        display: flex;
+        justify-content:space-evenly;
+    }
+    .menu1 .menu-item{
+        border: 1px solid black;
+        border-radius: 30PX;
+        width: 300px;
+        height: 450px;
+        text-align: center;
+        margin-top: 30px;
+        background-color: rgba(243, 43, 16, 0.605);
+        
+    }
+    
+    .menu2 .menu-item{
+        border: 1px solid black;
+        border-radius: 30px;
+        background-color: rgba(243, 43, 16, 0.605);
+        width: 300px;
+        height: 450px;
+        text-align: center;
+        margin-top: 30px;
+        background-color: rgba(243, 43, 16, 0.605);
+    }
+    .menu3 .menu-item{
+        border: 1px solid black;
+        border-radius: 30px;
+        width: 300px;
+        height: 450px;
+        text-align: center;
+        margin-top: 30px;
+        background-color: rgba(243, 43, 16, 0.605);
+    }
+    .menu4 .menu-item{
+        border: 1px solid black;
+        border-radius: 30PX;
+        width: 300px;
+        height: 450px;
+        text-align: center;
+        margin-top: 30px;
+        background-color: rgba(243, 43, 16, 0.605);
+    
+    }
+    .menu1 .menu-item img{
+        margin-top: 25px;
+    }
+    .menu2 .menu-item img{
+        margin-top: 25px;
+    }
+    .menu3 .menu-item img{
+        margin-top: 25px;
+    } .menu4 .menu-item img{
+        margin-top: 25px;
+    }
+  
+    .content{
+        color: yellow;
+        width: 50%;
+        border:1px;
+        border-radius: 25px;
+        background-color: rgba(128, 128, 128, 0.388);
+        padding: 5px 5px;
+        position: fixed;
+        right:95px;
+        top: 310px;
+        font-size:large;
+        font-family: "Righteous", sans-serif;
+        font-weight: 500;
+    }
+ .contactform{
+        width: 40%;
+        text-align: center;
+        margin-top: 170px;
+        border: 1px solid  rgba(34, 17, 1, 0.584);
+        border-radius: 25px;
+        padding: 20px 20px;
+        margin-left: 450px;
+        background-color: rgba(243, 54, 16, 0.537) ;
+        position: fixed;
+        margin-top: 50px;
+}
+.menu-item button{
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+      }
+
+
+    
